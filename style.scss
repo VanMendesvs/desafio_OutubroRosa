@@ -9,7 +9,7 @@
 }
 
 header {
-    height: 12.8vh;
+    height: 12vh;
     display: flex;
     color: #E4EEF1;
     background-color: #FF69B4;
@@ -35,19 +35,71 @@ header nav ul{
 }
 
 .firstContainer{
-    border: solid red;
     display: flex;
     align-items: center;
+    justify-content: space-around;
     background-color: #FFD9EC;
+    height: 40vh;
+    width: 100%;
 
     p{
-        width: 30vw;
-        border: solid red;
+        width: 40vw;
     }
 
     img{
-        width: 40vw;
-        height: 90%;
+        width: 60w;
+        height: 95%;
         padding-right: 5%;
     }
+}
+
+.secondContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 33vh;
+    width: 100%;
+    background-color: #FF69B4;
+    
+    p{
+        width: 40vw;
+        color: #E4EEF1;
+    }
+
+    img{
+        width: 60w;
+        height: 90%;
+    }
+}
+
+.thirdContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FFD9EC;
+    height: 35vh;
+
+    img {
+        height: 80%;
+    }
+}
+
+footer{
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FF69B4;
+    color: #E4EEF1;
+    border: solid red;
+
+    p{
+        width: 33vw;
+        font-size: 0.75em;
+        display: flex;
+        justify-content: center;
+        border: solid red;
+    }
+
 }
