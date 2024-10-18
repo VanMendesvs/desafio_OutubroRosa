@@ -86,12 +86,20 @@ footer {
   justify-content: space-between;
   background-color: #FF69B4;
   color: #E4EEF1;
-  border: solid red;
 }
 footer p {
-  width: 33vw;
+  width: 35vw;
   font-size: 0.75em;
   display: flex;
   justify-content: center;
-  border: solid red;
+}
+footer img {
+  height: 12vh;
+  padding-right: 0.75em;
+}
+
+.redes {
+  width: 20vw;
+  padding-left: 0.5em;
+  height: 11vh;
 }/*# sourceMappingURL=style.css.map */
